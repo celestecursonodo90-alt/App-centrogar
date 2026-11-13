@@ -1,0 +1,246 @@
+---
+name: Executive Retail Intelligence
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#45464d'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#76777d'
+  outline-variant: '#c6c6cd'
+  surface-tint: '#565e74'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#131b2e'
+  on-primary-container: '#7c839b'
+  inverse-primary: '#bec6e0'
+  secondary: '#00668a'
+  on-secondary: '#ffffff'
+  secondary-container: '#40c2fd'
+  on-secondary-container: '#004d6a'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#002113'
+  on-tertiary-container: '#009668'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dae2fd'
+  primary-fixed-dim: '#bec6e0'
+  on-primary-fixed: '#131b2e'
+  on-primary-fixed-variant: '#3f465c'
+  secondary-fixed: '#c4e7ff'
+  secondary-fixed-dim: '#7bd0ff'
+  on-secondary-fixed: '#001e2c'
+  on-secondary-fixed-variant: '#004c69'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  headline-xl:
+    fontFamily: Space Grotesk
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Space Grotesk
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  metric-display:
+    fontFamily: Space Grotesk
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.03em
+  metric-display-sm:
+    fontFamily: Space Grotesk
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 24px
+    letterSpacing: -0.02em
+  body-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-sm:
+    fontFamily: Hanken Grotesk
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  data-mono:
+    fontFamily: Hanken Grotesk
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 16px
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-tablet: 1.5rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1.25rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system is tailored for an executive-grade business intelligence and retail inventory platform. It serves corporate directors, category managers, supply chain orchestrators, and store operations leadership who demand instant situational awareness, absolute clarity, and high data density.
+
+The aesthetic fuses **Corporate / Modern** precision with architectural clarity:
+- **Tone:** Authoritative, razor-sharp, analytical, and effortless under intense decision-making pressure.
+- **Visual Tension:** Grounded by authoritative deep navy surfaces and lifted by an energetic, precise sky-blue pulse for key signals, active filters, and positive growth trajectories.
+- **Experience Goals:** Eliminate cognitive friction across complex inventory metrics, stock turn ratios, margin tracking, and multi-channel fulfillment pipelines. It prioritizes fast scannability, unambiguous hierarchy, and low eye fatigue during extended analytical sessions.
+
+## Colors
+
+The color architecture is built around high-clarity data presentation and structural anchor points:
+
+- **Primary (`#0F172A` - Slate Navy):** The structural core. Used for persistent top navigation banners, dark executive sidebars, primary titles, critical callout states, and key data points. It grounds the UI with institutional authority.
+- **Secondary (`#38BDF8` - Electric Sky):** The interactive and focus accent. Applied to active tab indicators, selected multi-filter pills, interactive chart series, sparkline peaks, focus rings, and primary action links.
+- **Tertiary (`#10B981` - Emerald Indicator):** Expresses growth deltas, healthy inventory thresholds, margin gains, and positive period-over-period performance indicators. Paired symmetrically with a controlled Rose (`#F43F5E`) for depletion alerts and margin erosion.
+- **Neutral (`#64748B` - Slate Grey):** Subdued metadata, column headers, axis labels, inactive icons, and structural divider lines. 
+
+### Canvas & Surface Matrix
+- **Global Canvas:** `#F1F5F9` (Cool Slate Canvas) creates subtle separation without glare.
+- **Cards & Data Modules:** Pure `#FFFFFF` (Pristine White) creates high-contrast islands for dense tabular data and executive KPI metrics.
+- **Borders & Rules:** `#E2E8F0` at 1px thickness provides crisp, structural boundaries without adding visual clutter.
+
+## Typography
+
+Typography establishes an analytical posture through the pairing of **Space Grotesk** and **Hanken Grotesk**:
+
+- **Space Grotesk (Headlines & Metrics):** Provides structural, technical authority. The condensed, geometric proportions grant numbers high impact while remaining compact enough for multi-digit financial figures and SKU count indicators.
+- **Hanken Grotesk (Body, Labels & Grids):** A high-performance sans-serif with excellent legibility at micro sizes (11px–13px). It accommodates dense data grids, nested commercial inventory categories, and audit log entries with optimal baseline harmony.
+- **Tabular Figures:** All numeric listings, percentage indicators, SKU counters, and currency fields must use font feature settings `tnum` (tabular numbers) and `cv01` to prevent jitter during real-time dashboard updates.
+
+## Layout & Spacing
+
+The layout is built around a disciplined 8px base rhythm with 4px sub-increments designed for dense commercial telemetry.
+
+### Grid Architecture
+- **Desktop (1280px+):** 12-column responsive fluid grid inside a 1600px maximum container. Margins: 32px (`margin-desktop`). Gutters: 24px (`gutter-desktop`).
+- **Tablet (768px - 1279px):** 8-column layout. Margins: 24px (`margin-tablet`). Gutters: 16px (`gutter`).
+- **Mobile (< 768px):** 4-column single-stack stream. Margins: 16px (`margin`). Gutters: 16px (`gutter`).
+
+### Responsive Adaptation
+- **Executive Summaries:** 4-column KPI spreads on desktop collapse to 2x2 grids on tablet and single-column horizontal carousels or stacked pairs on mobile.
+- **Data Tables:** Dense data tables freeze the primary SKU identifier column on mobile viewports while permitting fluid horizontal swipe for financial and branch-level metrics.
+- **Filters:** Desktop top-bar filter matrices fold into a dedicated slide-over drawer on screens smaller than 1024px.
+
+## Elevation & Depth
+
+This system avoids heavy drop shadows in favor of a crisp architectural structure combining hairline borders, subtle tonal layering, and targeted micro-elevation.
+
+- **Base Canvas:** Pure `#F1F5F9`. All content blocks sit upon this unified backdrop.
+- **Level 1 (Cards, KPI Modules, Data Tables):** Flat white `#FFFFFF` bounded by a 1px continuous hairline outline in `#E2E8F0`. Shadow: `0 1px 3px 0 rgba(15, 23, 42, 0.04)`.
+- **Level 2 (Hover States, Active Filter Drops, Context Menus):** Pure `#FFFFFF` with outline `#CBD5E1`. Shadow: `0 4px 12px -2px rgba(15, 23, 42, 0.08), 0 2px 4px -1px rgba(15, 23, 42, 0.04)`.
+- **Level 3 (Slide-Over Filter Drawers, Global Overlays, Modals):** Pure `#FFFFFF`. Shadow: `-8px 0 24px -4px rgba(15, 23, 42, 0.15)`. Backdrops feature a solid 48% opacity overlay of `#0F172A` with a 4px backdrop blur to isolate focus on mobile filtering flows.
+- **Level 4 (Persistent Dark App Bar & Nav):** Pure `#0F172A`. Visual depth is established via stark tonal contrast against the light canvas rather than elevation blur.
+
+## Shapes
+
+The design uses a **Soft (1)** shape language. The subtle radius reinforces precision, enterprise governance, and geometric authority without appearing playful or casual:
+
+- **Base Radius (0.25rem / 4px):** Standard interactive elements such as data table row selectors, input controls, metric trend chips, and compact pagination buttons.
+- **Container Radius (`rounded-lg`, 0.5rem / 8px):** Primary metric cards, analytics chart containers, filter modal frames, and slide-over panels.
+- **Full Radius (9999px / Pill):** Interactive category filter tags, status badge pills (e.g., "In Stock", "Critical Low"), and user avatars to create instantaneous visual contrast against rectilinear data containers.
+
+## Components
+
+### KPI Metric Cards
+- **Container:** Pure `#FFFFFF` background, 8px border radius, 1px `#E2E8F0` border, `space-lg` internal padding.
+- **Top Row:** Uppercase label (`label-sm`, `#64748B`) aligned with an optional contextual icon or branch indicator.
+- **Core Value:** `metric-display` in `#0F172A`.
+- **Trend Delta Element:** Inline pill containing a dynamic caret icon + percentage delta (`label-sm`).
+  - Positive / Target Exceeded: Background `#ECFDF5`, text `#047857`.
+  - Negative / Stock-out Risk: Background `#FFF1F2`, text `#BE123C`.
+- **Subtext:** Sparkline visualization (1.5px stroke `#38BDF8`) or period comparison label (`body-sm`, `#64748B`).
+
+### Interactive Filtering Badges & Chips
+- **Resting Filter Chip:** Pill shape, height 28px, background `#FFFFFF`, border 1px solid `#CBD5E1`, text `#0F172A` (`label-sm`), padding 0 10px.
+- **Active / Selected State:** Background `#0F172A`, text `#38BDF8`, border 1px solid `#0F172A`. Contains an inline dismiss `×` icon.
+- **Counter Badge:** Pill shape, background `#F1F5F9`, text `#0F172A`, font-weight 700, padding 2px 6px.
+
+### Form Inputs & Date Range Selectors
+- **Field Height:** 36px (compact desktop) / 42px (mobile touch target).
+- **Surface:** `#FFFFFF`, border 1px solid `#CBD5E1`, text `#0F172A`. Placeholder: `#94A3B8`.
+- **Focus Ring:** 2px offset ring in `#38BDF8` with a 1px border shift to `#0284C7`.
+
+### Buttons
+- **Primary:** Background `#0F172A`, text `#FFFFFF`, hover `#1E293B`, active `#0284C7`. Radius 4px.
+- **Accent Primary (Export/Run Intelligence):** Background `#38BDF8`, text `#0F172A`, font-weight 600. Hover `#0284C7`, text `#FFFFFF`.
+- **Secondary / Ghost:** Background transparent, border 1px solid `#CBD5E1`, text `#0F172A`, hover background `#F8FAFC`.
+
+### Data Grids & Inventory Tables
+- **Header:** Height 36px, background `#F8FAFC`, uppercase tracking (`label-sm`, `#64748B`), bottom border 1px solid `#E2E8F0`.
+- **Rows:** Height 44px, alternating hover state (`#F8FAFC`), bottom divider 1px solid `#F1F5F9`.
+- **Alignments:** Left-align SKU and category names; right-align currency, volume counts, and turnaround velocity metrics.
+
+### Slide-Over Drawer Filters (Tablet & Mobile)
+- **Container:** Slides from the right viewport edge. Full height, width 100% (max 380px on tablet). Background `#FFFFFF`.
+- **Header:** Sticky top bar with bold title (`headline-sm`), active filter counter, and close icon button.
+- **Footer Action Bar:** Sticky bottom bar with full-width primary button ("Apply Filters") and secondary ghost link ("Clear All").
+
+### Mobile Bottom Navigation Bar
+- **Dimensions:** Fixed bottom bar, height 60px, background `#0F172A` with top border 1px solid `#1E293B`.
+- **Items:** 4 to 5 key destinations (Overview, Inventory, Sales, Outlets, Filters).
+- **Item States:** Default icon and label in `#64748B`. Active state shifts icon and text to `#38BDF8` with a subtle 2px top indicator bar in `#38BDF8`.
